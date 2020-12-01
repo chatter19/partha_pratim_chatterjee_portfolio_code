@@ -8,6 +8,24 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate><atom:link href="https://chatter19.github.io/partha_pratim_chatterjee_portfolio/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Project 4: Jvion Core API</title>
+      <link>https://chatter19.github.io/partha_pratim_chatterjee_portfolio/post/project-4/</link>
+      <pubDate>Sat, 09 May 2020 13:58:08 -0400</pubDate>
+      
+      <guid>https://chatter19.github.io/partha_pratim_chatterjee_portfolio/post/project-4/</guid>
+      <description>Created a tool that estimates data science salaries (MAE ~ $ 11K) to help data scientists negotiate their income when they get a job. Scraped over 1000 job descriptions from glassdoor using python and selenium Engineered features from the text of each job description to quantify the value companies put on python, excel, aws, and spark. Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model.</description>
+    </item>
+    
+    <item>
+      <title>Project 3: Ready To Work</title>
+      <link>https://chatter19.github.io/partha_pratim_chatterjee_portfolio/post/project-3/</link>
+      <pubDate>Sat, 09 May 2020 12:58:08 -0400</pubDate>
+      
+      <guid>https://chatter19.github.io/partha_pratim_chatterjee_portfolio/post/project-3/</guid>
+      <description>Created a tool that estimates data science salaries (MAE ~ $ 11K) to help data scientists negotiate their income when they get a job. Scraped over 1000 job descriptions from glassdoor using python and selenium Engineered features from the text of each job description to quantify the value companies put on python, excel, aws, and spark. Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model.</description>
+    </item>
+    
+    <item>
       <title>Project 1: Core Client Platform</title>
       <link>https://chatter19.github.io/partha_pratim_chatterjee_portfolio/post/project-1/</link>
       <pubDate>Sat, 09 May 2020 10:58:08 -0400</pubDate>
