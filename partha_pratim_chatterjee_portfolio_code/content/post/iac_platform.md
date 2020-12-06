@@ -1,7 +1,7 @@
 ---
 date: 2020-05-09T10:58:08-04:00
 description: "A tool that estimates data science salaries."
-featured_image: "/images/iac.png"
+featured_image: "/images/iac-1.png"
 title: "IaC Platform"
 ---
 
@@ -15,7 +15,8 @@ Designed and developed the Iac platform for my current employer to allow rapid a
 * Implemented a CI/CD client infra deployment pipeline using Azure Devops
 * Maintained and source controlled client’s infrastructure state using remote tfstate files
 
-{{< figure src="/images/iac.png" >}}
+{{< figure src="/images/iac-1.png" >}}
 {{< figure src="/images/iac-2.png" >}}
+{{< figure src="/images/iac-3.png" >}}
 
 <!-- [Link to GitHub Repository](https://github.com/PlayingNumbers/ds_salary_proj) -->
