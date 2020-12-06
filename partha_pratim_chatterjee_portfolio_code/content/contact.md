@@ -1,6 +1,6 @@
 ---
 title: Contact
-featured_image: "images/notebook.jpg"
+featured_image: "images/about.jpg"
 omit_header_text: true
 description: We'd love to hear from you
 type: page
@@ -12,6 +12,6 @@ Follow me on these social media platforms.
 
 Platform |	URL
 ---|---
-LinkedIn:|	https://www.linkedin.com/in/kenjee/
-Medium:|	https://medium.com/@kenneth.b.jee
-GitHub:|	https://github.com/PlayingNumbers
+LinkedIn:|	https://www.linkedin.com/in/parthapratimchatterjee786
+<!-- Medium:|	https://medium.com/@partha.chatterjee786 -->
+<!-- GitHub:|	https://github.com/PlayingNumbers -->
