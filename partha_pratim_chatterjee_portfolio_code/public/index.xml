@@ -1,50 +1,52 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Software Engineering Portfolio on Partha Pratim Chatterjee</title>
+    <title>Partha Pratim Chatterjee on Home</title>
     <link>https://chatter19.github.io/partha_pratim_chatterjee_portfolio/</link>
-    <description>Recent content in Software Engineering Portfolio on Partha Pratim Chatterjee</description>
+    <description>Recent content in Partha Pratim Chatterjee on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 May 2020 13:58:08 -0400</lastBuildDate><atom:link href="https://chatter19.github.io/partha_pratim_chatterjee_portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Oct 2020 13:58:08 -0400</lastBuildDate><atom:link href="https://chatter19.github.io/partha_pratim_chatterjee_portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>One API to rule them all</title>
       <link>https://chatter19.github.io/partha_pratim_chatterjee_portfolio/post/api/</link>
-      <pubDate>Sat, 09 May 2020 13:58:08 -0400</pubDate>
+      <pubDate>Sat, 17 Oct 2020 13:58:08 -0400</pubDate>
       
       <guid>https://chatter19.github.io/partha_pratim_chatterjee_portfolio/post/api/</guid>
-      <description> Develop a microservice backend to read data and write patient information and power the front end of the app Azure functions SQL alchemy Pytest unit and integration test Validate incoming post requests using json validator Auth0 implementation to create admin users API management gateway and policy administration Implemented a CI/CD pipeline to continuously test new code commits                </description>
-    </item>
-    
-    <item>
-      <title>Ready To Work: A covid Initiative</title>
-      <link>https://chatter19.github.io/partha_pratim_chatterjee_portfolio/post/ready_to_work/</link>
-      <pubDate>Sat, 09 May 2020 12:58:08 -0400</pubDate>
-      
-      <guid>https://chatter19.github.io/partha_pratim_chatterjee_portfolio/post/ready_to_work/</guid>
-      <description> Azure functions Developed asa plugable interface and can be integrated with any frontend Asynchronous server processing using asyncio to allow it to scale Containerized scoring Queue Processing Custom logging in application insights Implemented a CI/CD pipeline to continuously test new code commits    </description>
-    </item>
-    
-    <item>
-      <title>IaC Platform</title>
-      <link>https://chatter19.github.io/partha_pratim_chatterjee_portfolio/post/iac_platform/</link>
-      <pubDate>Sat, 09 May 2020 10:58:08 -0400</pubDate>
-      
-      <guid>https://chatter19.github.io/partha_pratim_chatterjee_portfolio/post/iac_platform/</guid>
-      <description>Designed and developed the Iac platform for my current employer to allow rapid and automatic deployment of client infrastructure and its corresponding configuration
- Automated infrastructure deployment using Terraform (immutable infrastructure) Automated configuration deployment using Ansible Version controlled image configuration using Packer Developed an automation testing framework leveraging Kitchen terraform Checked and plugged for infrastructure vulnerabilities using Chekov Implemented a CI/CD client infra deployment pipeline using Azure Devops Maintained and source controlled client’s infrastructure state using remote tfstate files        </description>
+      <description>To further assist &amp;lsquo;going to market&amp;rsquo; strategies, it is imperative from a technical standpoint to have an application interface to perform the proverbial &amp;lsquo;CRUD&amp;rsquo;. The interface should be platform agnostic and must integrate seamlessly to web interfaces, reporting tools such as Tableau or data custom data platforms
+My current project is to build a collection of restful that can be consumed by above mentioned platforms.
+Architecture Decisions  One monolithic application over microservices.</description>
     </item>
     
     <item>
       <title>Extract, Transform and Load: Parsing EDI Claims</title>
       <link>https://chatter19.github.io/partha_pratim_chatterjee_portfolio/post/parser/</link>
-      <pubDate>Mon, 10 Apr 2017 11:00:59 -0400</pubDate>
+      <pubDate>Wed, 10 Jun 2020 11:00:59 -0400</pubDate>
       
       <guid>https://chatter19.github.io/partha_pratim_chatterjee_portfolio/post/parser/</guid>
-      <description>EDI or Electronic Data Interchange is a standard for a p2p exchange of business documents.
-In this project, I created a parser that extracts PHI data from unstructured industry standard EDi files and generates a structured data format to be consumed by the downstream data pipeline
-The parser has the following capabilities:   Developed a custom utility to asynchronously read and parse millions of files using asyncio
-  The parser is developed as a pluggable interface and can be integrated in any pipeline as a library</description>
+      <description>In order to improve the data ingestion strategies, I engineered a client agnostic data parser
+ extracts information from industry standard EDI (Electronic data interchange) files load data to the corresponding client databases run transformations (calculations) on the extracted data  Architecture Decisions  a pluggable engine that is slient agnostic and cloud provider agnostic Implements a robust secret management paradigm Integrates with workflow management platforms such as Apache airflow A CI/CD pipeline to consume deployment triggers.</description>
+    </item>
+    
+    <item>
+      <title>Ready To Work: A covid Initiative</title>
+      <link>https://chatter19.github.io/partha_pratim_chatterjee_portfolio/post/ready_to_work/</link>
+      <pubDate>Wed, 19 Feb 2020 12:58:08 -0400</pubDate>
+      
+      <guid>https://chatter19.github.io/partha_pratim_chatterjee_portfolio/post/ready_to_work/</guid>
+      <description>In the current COVID hit world, it is necessary to understand wether employees are fit to go back to work. I developed a pluggable interface,
+ that consumes a survey response in the form of json, queues it to our AI to calculate the odds for or against a person going back to work and sends out those results to a web screen  Architecture Decisions  One monolithic application over microservices.</description>
+    </item>
+    
+    <item>
+      <title>IaC Platform</title>
+      <link>https://chatter19.github.io/partha_pratim_chatterjee_portfolio/post/iac_platform/</link>
+      <pubDate>Mon, 19 Aug 2019 10:58:08 -0400</pubDate>
+      
+      <guid>https://chatter19.github.io/partha_pratim_chatterjee_portfolio/post/iac_platform/</guid>
+      <description>In my experience, one of the key factors that influence a company&amp;rsquo;s velocity at whhich it can go to the market, is its ability to devise a platform that manages the infrastructure deployment of its clients.
+In my current company, I had a similar task at hand, where i was to build a a cloud agnostic Infrastructure as Code platform (IaC Platform).
+Architecture Decisions  Build a framework to import logically grouped modules (IaC module framework) Build a gateway to onboard clients seamlessly (IaC client framework) Version control infrasture and configuration states to facilitate incremantal updates  Tech Stack  Terraform to automate infrastrucutre deployment.</description>
     </item>
     
     <item>

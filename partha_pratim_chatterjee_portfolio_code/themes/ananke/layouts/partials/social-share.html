@@ -3,7 +3,7 @@
 {{ $icon_size := "32px" }}
 
 {{ if not .Params.disable_share }}
-  <div id="sharing" class="mt3">
+  <!-- <div id="sharing" class="mt3">
 
     {{ $facebook_href := printf "https://www.facebook.com/sharer.php?u=%s" $url }}
     <a href="{{ $facebook_href }}" class="facebook no-underline" aria-label="share on Facebook">
@@ -22,5 +22,5 @@
     <a href="{{ $linkedin_href }}" class="linkedin no-underline" aria-label="share on LinkedIn">
       {{ partialCached "svg/linkedin.svg" (dict "size" $icon_size) $icon_size }}
     </a>
-  </div>
+  </div> -->
 {{ end }}

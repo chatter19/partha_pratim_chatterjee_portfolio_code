@@ -1,6 +1,6 @@
 ---
-title: "Software Engineering Portfolio"
+title: "Partha Pratim Chatterjee"
 featured_image: '/images/home.jpg'
-description: "Hi! My name is Partha Pratim Chatterjee."
+description: "I enjoy building sclabale backend systems."
 ---
-Welcome to my Software Engineering Portfolio. My passion lies in building sclabale backend systems.
+Welcome to my tech space. This is where I put all the stuff that I enjy working on.

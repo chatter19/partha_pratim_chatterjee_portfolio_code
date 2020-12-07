@@ -1,31 +1,34 @@
 ---
-date: 2017-04-10T11:00:59-04:00
+date: 2020-06-10T11:00:59-04:00
 description: "A ball classifier to identify balls from different sports."
 featured_image: "/images/parser.png"
 title: "Extract, Transform and Load: Parsing EDI Claims"
 ---
+In order to improve the data ingestion strategies, I engineered a client agnostic data parser 
+* extracts information from industry standard EDI (Electronic data interchange) files
+* load data to the corresponding client databases
+* run transformations (calculations) on the extracted data
 
-EDI or Electronic Data Interchange is a standard for a p2p exchange of business documents.
-
-In this project, I created a parser that extracts PHI data from unstructured industry standard EDi files and generates a structured data format to be consumed by the downstream data pipeline
-
-The parser has the following capabilities:
+Architecture Decisions
 ---
+* a pluggable engine that is slient agnostic and cloud provider agnostic
+* Implements a robust secret management paradigm
+* Integrates with workflow management platforms such as Apache airflow
+* A CI/CD pipeline to consume deployment triggers.
 
-* Developed a custom utility to asynchronously read and parse millions of files using asyncio
+Tech Decisions
+---
+* Develop a pypi package for the parser
+* Leveraged azure keyvaults and AWS Secret manager to manage client secrets
+* Pytest framework to implement unit testing and integration testing.
+* Azure DevOps/Bitbucket Pipelines for building CI/CD pipeleine.
 
-* The parser is developed as a pluggable interface and can be integrated in any pipeline as a library
-
-* Integrated the parser to work with the Azure cloud resources - Azure Keyvault/Blob/Azure data warehouse as well as with AWS resources (AWS secret manager/S3/Redshift database)
-Leveraged pytest to achieve 100% integration testing on both cloud platforms
-
-* Built document as code
-
+Additional Features
+---
+* Documaentation integrated with codebase using Sphinx
+* Custom logging on Application insights
 * Automated PR review using Codeflow
 
-* Implemented a CI/CD pipeline to continuously test new code commits
-
-
-{{< figure src="/images/parser.png" >}}
+<!-- {{< figure src="/images/parser.png" >}} -->
 
 <!-- [Link to GitHub Repository](https://github.com/PlayingNumbers/ds_salary_proj) -->
